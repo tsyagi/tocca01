@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" output="build/resouces" path="src/main/resouces"/>
+	<classpathentry kind="src" output="build/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="build/test-classes" path="src/test/resouces"/>
+	<classpathentry kind="src" path="src/devtools"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jar/jmockit.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/jar/poi-3.11.jar" sourcepath="lib/src/poi-3.11-src.zip"/>
+	<classpathentry kind="lib" path="lib/jar/junit-addons-1.4.jar" sourcepath="lib/src/junit-addons-1.4-src.jar"/>
+	<classpathentry kind="lib" path="lib/jar/commons-cli-1.2.jar" sourcepath="lib/src/commons-cli-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/hc_base_common/lib/src/commons-cli-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/classes"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/httpclient-cache-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/httpclient.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/httpcore.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jackson-core-asl.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jackson-jaxrs.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jackson-mapper-asl.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jackson-xc.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/ant-jsch.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/ant.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/aws-java-sdk.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-core.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-compute.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-media.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-network.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-scheduler.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-sql.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-storage.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management-websites.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-management.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-media.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-servicebus.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-serviceruntime.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-storage.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/azure-tracing-util.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-beanutils-bean-collections-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-beanutils-core-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-codec.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-httpclient-3.1-rc1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-lang3.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/concurrent.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/httpmime-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/javax.inject.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jcs.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jersey-core.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jersey-json.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jsch-0.1.42.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/jsonic-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/mail.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/postgresql.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/qsclient_16.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/rome-1.0.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/rome-fetcher-0.9.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="/glv_batch/build/classes"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/google-http-client-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/glv_web/ROOT/WEB-INF/lib/mariadb-java-client-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jar/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
